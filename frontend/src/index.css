@@ -62,3 +62,23 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+body {
+  min-height: 175rem;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  max-width: 2000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 171rem;
+}
+::-webkit-scrollbar{
+  background-color: transparent;
+  width: 1rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 2rem;
+  cursor: pointer;
+  height: 12rem;
+}

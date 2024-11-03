@@ -1,0 +1,331 @@
+img{
+    display: flex;
+    max-width: 100rem;
+    width:10rem;
+    max-height: 100rem;
+    height: 10rem;
+}
+.comfort {
+    width: 576px;
+    height: 330px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    line-height: 109.76px;
+    font-size: 98px;
+    color: black;
+    position: relative;
+    top: -63rem;
+    left: 100px;
+}
+.hero p {
+    width: 573px;
+    height: 86px;
+    position: relative;
+    top: -62rem;
+    left: 100px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 43.12px;
+}
+.hero .btn2 {
+    border-radius: 23px;
+    width: 216px;
+    height: 83px;
+    bottom: 59rem;
+    position: relative;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    left: 6rem;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: background-color 0.5s ease;
+    font-size: 1.4rem;
+}
+.hero .btn2:hover {
+    background-color: white;
+    color: black;
+}
+.hero::before{ 
+    content: '';
+    display: flex;
+    width: 664px;
+    height: 885px;
+    position: relative;
+    top: -19rem;
+    z-index: -1;
+    left: 39rem;
+    background-color:  #e8e8e88c;;
+
+}
+.ultimate {
+    width: 352px;
+    height: 116px;
+    position: relative;
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+    font-size: 128px;
+    bottom: 140rem;
+    left: 24rem;
+    line-height: 116.39px;
+    color: #FFFFFF;
+    writing-mode: vertical-rl;
+}
+.img1 {
+    display: flex;
+    max-width: 100rem;
+    left: 45rem;
+    position: relative;
+    bottom: 99rem;
+    width: 32rem;
+    max-height: 100rem;
+    height: 43rem;
+}
+.brand-carousel {
+    display: flex;
+    width: 79rem;
+    left: 0rem;
+    bottom: 1636px;
+    background-color: black;
+    position: relative;
+    height: 6rem;
+    gap: 39px;
+}
+.puma , .adidas , .converse, .balance , .skechers {
+    width: 6rem;
+    top: 9px;
+    position: relative;
+    height: 5rem;
+    margin-left: 6rem;
+}
+.skechers {
+    width: 12rem;
+    top: -37px;
+    height: 11rem;
+}
+.categories {
+    position: relative;
+    bottom: 98rem;
+    justify-content: center;
+    display: flex;
+    gap: 23px;
+}
+.categories .btn3, .categories .btn4, .categories .btn5, .categories .btn6 {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    border-radius: 1rem;
+    font-size: 28px;
+    width: 9rem;
+    line-height: 38.67px;
+    height: 4rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.categories .btn3:hover, .categories .btn4:hover, .categories .btn5:hover, .categories .btn6:hover {
+    background-color: black;
+    color: white;
+}
+.categories .btn3.active,
+.categories .btn4.active,
+.categories .btn5.active,
+.categories .btn6.active {
+    background-color: black;
+    color: white;
+}
+.featured-products {
+    position: relative;
+    bottom: 87rem;
+}
+.featured-products h2 {
+    width: 415px;
+    height: 62px;
+    top: -5rem;
+    left: 28rem;
+    position: relative;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 62.15px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: black;
+    cursor: pointer;
+}
+.featured-products h2::before,
+.featured-products h2::after {
+    content: '';
+    position: absolute;
+    top: 50%; 
+    width: 50px;
+    height: 2px;
+    background-color: black;
+}
+
+.featured-products h2::before {
+    left: -60px;
+    transform: translateY(-50%);
+}
+
+.featured-products h2::after {
+    right: -60px; 
+    transform: translateY(-50%);
+}
+.product-grid {
+    position: relative;
+    bottom: 3rem;
+    left: 3rem;
+    width: 22rem !important;
+    padding: 0rem;
+}
+.product-card {
+    position: relative;
+    border: 1px solid #DEDEDE;
+    border-radius: 8px;
+    padding: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 332.04px;
+    height: 411px;
+    margin-bottom: 3rem;
+
+}
+.product-card:hover {
+    transform: translateY(-5px);
+}
+.product-image {
+    width: 312px;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    height: 252px;
+    margin-bottom: 10px;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1); 
+}
+.product-card h3 {
+    font-size: 1.3rem;
+    position: relative;
+    width: 12rem;
+    left: 11px;
+    font-weight: 500;
+    color: #333;
+    margin: 0.5rem 0;
+}
+.swiper-pagination-bullet {
+    background-color: #333;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+    margin: 0 5px;
+}
+.swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+}
+.price {
+    font-size: 1.2rem;
+    color: #000;
+    position: relative;
+    top: 1rem;
+    width: 6rem;
+    left: 11px;
+}
+.old-price {
+    font-size: 0.9rem;
+    position: relative;
+    top: -23px;
+    width: 6rem;
+    left: 101px;
+    color: black;
+    text-decoration: line-through;
+}
+.product-card::before {
+    content: 'NEW';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: black;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+.product-card i {
+    position: relative;
+    top: -5rem;
+    font-size: 2rem;
+    left: 7rem;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+.product-card i:hover {
+    color: rgb(217, 212, 212);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 5px; /* Spazio tra i pallini */
+    margin-top: 10px;
+}
+
+.dot {
+    width: 10px; /* Dimensione normale dei pallini */
+    height: 10px;
+    background-color: gray; /* Colore dei pallini non attivi */
+    border-radius: 50%; /* Forma circolare */
+    cursor: pointer;
+    transition: transform 0.2s; /* Animazione al passaggio del mouse */
+}
+
+.dot.active {
+    width: 15px; /* Dimensione del pallino attivo */
+    height: 15px;
+    background-color: black; /* Colore del pallino attivo */
+}
+
+.dot:hover {
+    transform: scale(1.2); /* Ingrandimento al passaggio del mouse */
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+    /* column-gap: 1rem; */
+    width: 28rem;
+}
+.slick-track {
+    position: relative;
+    top: 70px;
+    left: 0;
+    /* height: 13rem; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    height: 63rem;
+    padding: 0;
+}
+.slick-dots li button {
+    cursor: pointer; 
+    transition: font-size 0.5s ease; 
+}
+.slick-dots li.slick-active button:before {
+    font-family: 'slick';
+    font-size: 1rem;
+}
